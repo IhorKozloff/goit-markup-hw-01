@@ -20,6 +20,8 @@ header {
     letter-spacing: 0.03em;
     padding: 0;
     margin: 25px 93px 0 0;
+    text-decoration: none;
+    color: #000;
 }
 
 .logo span {
@@ -27,7 +29,7 @@ header {
     
 }
 
-.navigation_div {
+.navigation {
     width: 295px;
     height: 16px;
     margin-top: 32px;
@@ -196,7 +198,6 @@ footer {
     background: #2F303A;
     padding: 60px 0px 60px 215px;
 }
-footer 
 
 .footer_txt {
     font-style: normal;
@@ -205,6 +206,7 @@ footer
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    margin-top: 20px;
 }
 
 .footer_logo {
@@ -217,6 +219,7 @@ footer
     padding: 0;
     margin: 25px 93px 0 0;
     color: #fff;
+    text-decoration: none;
 }
 .footer_logo span {
     color: #2196F3;
