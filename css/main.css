@@ -5,6 +5,14 @@ body {
    font-family: 'Roboto', sans-serif;
 }
 
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-left: 0; 
+    padding-left: 0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -30,14 +38,13 @@ header {
 }
 
 .navigation {
+    
     width: 295px;
     height: 16px;
     margin-top: 32px;
     padding-bottom: 7px;
-    display: flex;
-    justify-content: space-between;
 }
-.contacts_div {
+.contacts {
     width: 310px;
     height: 16px;
     margin-top: 32px;
@@ -46,7 +53,7 @@ header {
     justify-content: space-between;
     padding-bottom: 7px;
 }
-.navigation_a, .contacts_a {
+.menu, .contact {
     text-decoration: none;
     color: black;
     font-style: normal;
@@ -56,16 +63,16 @@ header {
     letter-spacing: 0.02em;
 }
 
-.navigation_a:hover, 
-.contacts_a:hover {
+.menu:hover, 
+.contact:hover {
     color: #2196F3;
 }
 
-.contacts_a {
+.contact {
     color:#757575;
 }
 
-.section_tittle {
+.tittle {
     background: #2F303A;
     padding: 200px 450px 200px 450px;
 }
@@ -94,21 +101,17 @@ h1 {
     border: 0px;
 }
 
-.busines_section {
-    padding: 94px 215px;
+.busines {
+    padding: 94px 215px 0 215px;
 }
 
-ul {
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    margin-left: 0; 
+.photo {
+    padding: 0 215px 94px 215px;
+}
+
+
+.skills {
     margin-bottom: 95px;
-    padding-left: 0;
-}
-
-li { 
-     width: 270px;
 }
 
 h3 {
@@ -120,13 +123,14 @@ h3 {
     text-transform: uppercase;
 }
 
-.li_txt {
+.message {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #757575;
+    width: 270px;
 }
 
 h2 {
@@ -142,33 +146,28 @@ h2 {
     padding: 0 0;
 }
 
-.busines_images {
-    display: flex;
-    justify-content: space-between;
-}
 
-.img_busines_section {
+.img-busines {
     width: 370px;
     height: 295px;
 }
 
-.team_list {
-    display: flex;
-    flex-direction: row-reverse;
+.team-list {
+    flex-direction: row-reverse; */
 }
 
-.team_section {
+.team {
     padding: 94px 215px; 
     background: #F5F4FA;
 }
 
-.team_sect_img {
+.team-img {
     width: 270px;
     height: 260px;
 }
      
-.team_list li {
-     width: 270px;
+.team-list li {
+    width: 270px;
     height: 370px; 
     background: #fff; 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -199,17 +198,22 @@ footer {
     padding: 60px 0px 60px 215px;
 }
 
-.footer_txt {
+.contacts-txt {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    
     margin-top: 20px;
+    
 }
 
-.footer_logo {
+.contacts-list {
+    display: block;
+    color: #fff;
+}
+.bottom-logo {
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -221,10 +225,16 @@ footer {
     color: #fff;
     text-decoration: none;
 }
-.footer_logo span {
+.bottom-logo span {
     color: #2196F3;
 }
 
-.footer_txt span {
+
+.contact-color {
     color: #fff;
+}
+
+.bottom-cont {
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
 }
